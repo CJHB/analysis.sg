@@ -1,0 +1,117 @@
+p {
+  color: blue;
+}
+body {
+  font: 12px;
+  background-color: grey;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul#myTopnav {
+  background-color: rgba(0, 0, 0, 0.89);
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+.navbar-item {
+    font-size: 12pt;
+    display: left;
+    height: 50px;
+    padding: 5px 5px;
+    line-height: 50px;
+}
+.brand {
+    font-size: 20pt;
+    /*display: inline-block;*/
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+}
+
+/*a.navbar-item.brand:hover {
+    background-color:  black;
+}*/
+.wordmap {
+  text-align: center;
+}
+
+img.img{
+  width:450px; /* you can use % */
+  padding: 100px 100px;
+
+  height: auto;
+}
+.maintitle {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover{
+  color: white;
+  /*font-size: 24px;*/
+}
+.topnav li{
+  display: inline;
+  padding: 100px 50px;
+  width: 100%;
+}
+
+ul span li {
+  display: inline;
+}
+
+/* circles */
+.featurettes {
+  background: white;
+  text-align: center;
+}
+
+.featurettes ul li{
+  position: relative;
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  margin: 70px;
+}
+
+.featurettes ul li p {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.f-item:hover {
+  color: grey;
+}
+
+h3 {
+position:relative;
+text-align:center;}
+
+h3 span {
+    display:inline-block;
+    padding:0 50px;
+    background:#fff;
+}
+h3:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    right:0;
+    top:50%;
+    height:1px;
+    background:#ccc;
+}
+.maintitle {
+  color: red;
+}
