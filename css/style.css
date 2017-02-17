@@ -1,68 +1,54 @@
 p {
-  color: blue;
+  color: grey;
 }
 body {
-  font: 12px;
-  background-color: grey;
   font-family: 'Raleway', sans-serif;
+  font: 12px;
+  background-color: white;
 }
-
-ul#myTopnav {
-  background-color: rgba(0, 0, 0, 0.89);
-  text-align: center;
+a:hover{
   color: white;
-  padding: 0px;
+  /*font-size: 24px;*/
 }
-.navbar-item {
-    font-size: 12pt;
-    display: left;
-    height: 50px;
-    padding: 5px 5px;
-    line-height: 50px;
-}
-.brand {
-    font-size: 20pt;
-    /*display: inline-block;*/
-    height: 50px;
-    padding: 15px 15px;
-    line-height: 20px;
-}
-
-/*a.navbar-item.brand:hover {
-    background-color:  black;
-}*/
-.wordmap {
-  text-align: center;
-}
-
-img.img{
-  width:450px; /* you can use % */
-  padding: 100px 100px;
-
-  height: auto;
-}
-.maintitle {
-  color: red;
-}
-
 a {
   text-decoration: none;
   color: grey;
 }
 
-a:hover{
+ul#myTopnav {
+  background-color: rgba(0, 0, 0, 0.89);
+  text-align: left;
   color: white;
-  /*font-size: 24px;*/
-}
-.topnav li{
-  display: inline;
-  padding: 100px 50px;
-  width: 100%;
+  padding: 0px;
 }
 
-ul span li {
+.topnav li{
   display: inline;
+  padding: 25px 25px;
+  width: 100%;
 }
+.navbar-item {
+    font-size: 12pt;
+    display: left;
+
+    padding: 2px 0px;
+    line-height: 50px;
+}
+.brand {
+    font-size: 20pt;
+    height: 25px;
+    padding: 5px 5px;
+    line-height: 10px;
+}
+
+img.img{
+  width:10000px;
+  height: 10;
+}
+
+/*ul span li {
+  display: inline;
+}*/
 
 /* circles */
 .featurettes {
@@ -89,29 +75,5 @@ ul span li {
 }
 
 .f-item:hover {
-  color: grey;
-}
-
-h3 {
-position:relative;
-text-align:center;}
-
-h3 span {
-    display:inline-block;
-    padding:0 50px;
-    background:#fff;
-}
-h3:before {
-    content:"";
-    display:block;
-    position:absolute;
-    z-index:-1;
-    left:0;
-    right:0;
-    top:50%;
-    height:1px;
-    background:#ccc;
-}
-.maintitle {
-  color: red;
+  color: lightblue;
 }
