@@ -43,7 +43,7 @@ ul#myTopnav {
 
 img.img{
   width:10000px;
-  height: 10;
+  height: 100px;
 }
 
 /*ul span li {
@@ -66,7 +66,7 @@ img.img{
   margin: 70px;
 }
 
-.featurettes ul  p {
+.featurettes ul li p {
   margin: 0;
   position: absolute;
   left: 50%;
